@@ -1,0 +1,52 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI/battle/Battle.uss?fileID=7433441132597879392&amp;guid=9426e2cf7f29c0a4798531d9d6b8d509&amp;type=3#Battle" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="battlecontainer" class="battlecontainer">
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+                <ui:VisualElement name="spriteContainer" class="spriteContainer">
+                    <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/maggie.png?fileID=2800000&amp;guid=da240e0f4aa4fbf49bfc3b6c7880d2c9&amp;type=3#maggie&apos;); width: 130px; height: 130px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statsContainer" class="statsContainer">
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Mana" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+                <ui:VisualElement name="spriteContainer" class="spriteContainer">
+                    <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/bart.png?fileID=2800000&amp;guid=08d9c3983178c644187a7010fc58a4f0&amp;type=3#bart&apos;); width: 130px; height: 130px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statsContainer" class="statsContainer">
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Mana" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
+                <ui:VisualElement name="spriteContainer" class="spriteContainer">
+                    <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/lisa.png?fileID=2800000&amp;guid=3082aed490be4054a8a14f140ffc3af7&amp;type=3#lisa&apos;); width: 130px; height: 130px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="statsContainer" class="statsContainer">
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="stat" class="stat">
+                        <ui:Label text="Mana" display-tooltip-when-elided="true" class="name" />
+                        <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
